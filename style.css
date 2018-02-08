@@ -13,6 +13,7 @@
     font-size: 18px;
     padding: 0 10px;
     border: none;
+    cursor: pointer;
 }
 span {
     display: inline-block;
