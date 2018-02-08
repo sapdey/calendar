@@ -8,7 +8,7 @@
     var till = date.getDate();
     var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 
-    var leftButton = document.createElement('button');
+    var leftButton = document.createElement('span');
     leftButton.className = "top";
     leftButton.innerText = "<";
     leftButton.addEventListener('click', () => {
@@ -19,7 +19,7 @@
         render(date, till);
     });
 
-    var rightButton = document.createElement('button');
+    var rightButton = document.createElement('span');
     rightButton.className = "top";
     rightButton.innerText = ">";
     rightButton.addEventListener('click', () => {
